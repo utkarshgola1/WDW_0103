@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 8</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 16px;
+      min-height: 100vh;          /* Makes the body at least as tall as the full screen */
+      box-sizing: border-box;     /* Includes padding inside the 100vh height */
+      display: flex;              /* Enables Flexbox layout */
+      flex-direction: column;     /* Stacks elements vertically */
+    }
+
+    footer {
+      margin-top: auto;           /* Pushes this element all the way to the bottom */
+    }
+  </style>
+</head>
+<body id="top">
+
+  <!-- Main content goes here -->
+  <main>
+    <p>Links demo</p>
+    <a href="https://example.com">External Link</a><br>
+    <a href="#bottom">Jump to bottom</a><br>
+    <a href="mailto:someone@example.com">Email us</a><br><br>
+    <img src="logo.png" alt="Logo">
+  </main>
+
+  <!-- Bottom section pushed to the end of the page -->
+  <footer id="bottom">
+    <p>Bottom. <a href="#top">Back to top</a></p>
+  </footer>
+
+</body>
+</html>
